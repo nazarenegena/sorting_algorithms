@@ -30,7 +30,7 @@ for (k = 0; k < len - 1; k++)
 {
 if (array[k] > array[k + 1])
 {
-swap_ints(array + k, array + i + 1);
+swap_ints(array + k, array + k + 1);
 print_array(array, size);
 bubble = false;
 }
