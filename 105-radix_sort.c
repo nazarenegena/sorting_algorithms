@@ -1,7 +1,7 @@
 #include "sort.h"
 int get_max(int *array, int size);
-void radix_counting_sort(int *array, size_t size, int sig, int *buff);
 void radix_sort(int *array, size_t size);
+void radix_counting_sort(int *array, size_t size, int sig, int *buff);
 /**
 * get_max - the function gets the max value in an array
 * @array: shows the array of integers.
